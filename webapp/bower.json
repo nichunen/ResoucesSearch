@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/nichunen/ResourcesSearch",
   "main": "app.js",
-  "license": "MIT",
+  "license": "Apache",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -20,7 +20,10 @@
     "angular-translate": "2.16.0",
     "angular-translate-loader-static-files": "2.16.0",
     "bootstrap": "3.4.0",
-    "ace-builds": "1.1.8"
+    "ace-builds": "1.1.8",
+    "less.js": "~1.4.0",
+    "font-awesome": "4.3.0",
+    "components-font-awesome": "~4.3.0"
   },
   "overrides": {
     "ace-builds": {

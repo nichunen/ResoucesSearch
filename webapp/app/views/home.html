@@ -14,15 +14,16 @@
         </li>
     </div>
 
-    <div class="search-box">
+    <div class="job-search-box ">
         <form class="" ng-submit="jobList.removeAll();reload()" style="display: inline" >
-              <span class="input-icon" style="font-size:32px;">
+              <span class="input-icon input-icon-right nav-search" style="font-size:32px;">
                   <input type="text" placeholder={{'please_search'|T}} class="nav-search-input" ng-model="searchText" />
-                  <i class="ace-icon fa fa-search blue" ng-click="jobList.removeAll();reload()"></i>
+
               </span>
+              <a class="btn btn-xs btn-info" style="transform: scale(1.8);  margin-left: 20px;" ng-click="jobList.removeAll();reload()" tooltip="Manage Project"><i class="fa fa-search"></i></a>
         </form>
     </div>
-<!--    <div class="workspace row">
+<!--    <div class="workspace row">x
         <div class="col-md-12">
             <h2>Welcome!</h2>
             <span>Hi! What's your name?  </span><input type="text" ng-model="name" placeholder="Type your name here"></input>
