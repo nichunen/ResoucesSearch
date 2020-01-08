@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row headerDiv">
+        <div class="title">
+            <h1>{{'title'|T}}</h1>
+        </div>
+        <li class="dropdown light-blue">
+            <select class="input-sm" style="width:10%;float: right"
+                    ng-controller="LanguageSwitchingCtrl"
+                    ng-model="cur_lang"
+                    ng-change="switching(cur_lang)">
+                <option value="en">English</option>
+                <option value="cn">简体中文</option>
+            </select>
+        </li>
+    </div>
+
+    <div class="search-box">
+        <form class="" ng-submit="jobList.removeAll();reload()" style="display: inline" >
+              <span class="input-icon" style="font-size:32px;">
+                  <input type="text" placeholder={{'please_search'|T}} class="nav-search-input" ng-model="searchText" />
+                  <i class="ace-icon fa fa-search blue" ng-click="jobList.removeAll();reload()"></i>
+              </span>
+        </form>
+    </div>
+<!--    <div class="workspace row">
+        <div class="col-md-12">
+            <h2>Welcome!</h2>
+            <span>Hi! What's your name?  </span><input type="text" ng-model="name" placeholder="Type your name here"></input>
+            &lt;!&ndash; 4. {{ Data Binding Expression }} &ndash;&gt;
+            <p>Welcome, {{name}}!</p>
+            <p>Want to build your own webpage? Want to learn the very basics of HTML and CSS, two markup languages that all web pages are built on? Start right here!</p>
+            <a href="#/castle">Let's build a castle!</a>
+        </div>
+    </div>
+    <div class="footerDiv"></div>-->
+</div>

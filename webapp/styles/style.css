@@ -1,0 +1,143 @@
+body {
+  background-color:#1abc9c;
+}
+
+.ace_editor { height: 200px;
+  border: 6px #95a5a6 solid;
+}
+
+h1 {
+  color: #df691a
+}
+
+h2 {
+  color: #A81642;
+}
+
+.title {
+  font-size: 15em;
+  color: #bdc3c7;
+  text-align: center;
+}
+
+.headerDiv {
+  margin: 1em 2em 0em 2em;
+  background-color:#16a085;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.workspace {
+  padding:2em;
+  background-color:#bdc3c7;
+  border-radius: 2em;
+  box-shadow: 8px 8px #95a5a6;
+  border: 1px #BBBBBB solid;
+/*  border: solid 5px #DE334F;*/
+}
+
+.footerDiv {
+  height:2em;
+  margin: 0em 2em 1em 2em;
+  background-color:#16a085;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+#tutorial {
+  margin:1em;
+}
+
+#codeEditors {
+  background-color:#95a5a6;
+  padding: 0px;
+  border-top: 6px #7f8c8d solid;
+  border-left: 6px #7f8c8d solid;
+  margin: .5em;
+}
+
+#codeView {
+  height: 400px;
+  background-color:#95a5a6;
+  margin: .5em;
+  border-top: 6px #7f8c8d solid;
+  border-left: 6px #7f8c8d solid;
+}
+
+.search-box {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+}
+
+span.input-icon {
+  display: inline-block;
+}
+
+.nav-search-input {
+  border: 1px solid #6fb3e0;
+  height: 38px !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px !important;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #666 !important;
+  width: 500px;
+  -webkit-transition: width ease .15s;
+  -o-transition: width ease .15s;
+  transition: width ease .15s;
+}
+
+/*
+-----------------------------
+----Answer Option Classes----
+-----------------------------*/
+
+.optionDivs {
+  width: 40px;
+  height:1em;
+  display: inline;
+  border: 1px solid gray;
+}
+
+.lightblue {
+  background-color:lightblue;
+}
+
+.dodgerblue {
+  background-color:dodgerblue;
+}
+
+.pink {
+  background-color:pink;
+}
+
+.mediumpurple {
+  background-color:mediumpurple;
+}
+
+.darkslateblue {
+  background-color:darkslateblue;
+}
+
+.brown {
+  background-color:brown;
+}
+
+.burlywood {
+  background-color:burlywood;
+}
+
+.darkgray {
+  background-color:darkgray;
+}
+
+.darkgreen {
+  background-color:darkgreen;
+}
+
+.aliceblue {
+  background-color:aliceblue;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "project-4-easy-html-tutorial",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nichunen/ResourcesSearch",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "angular-ui-ace",
+    "ace-builds"
+  ],
+  "dependencies": {
+    "angular": "1.4",
+    "angular-ui-ace": "0.2.3",
+    "angular-route": "1.2.15",
+    "angular-translate": "2.16.0",
+    "angular-translate-loader-static-files": "2.16.0",
+    "bootstrap": "3.4.0",
+    "ace-builds": "1.1.8"
+  },
+  "overrides": {
+    "ace-builds": {
+      "main": [
+        "src-min-noconflict/ace.js",
+        "src-min-noconflict/mode-json.js",
+        "src-min-noconflict/mode-yaml.js",
+        "src-min-noconflict/theme-idle_fingers.js",
+        "src-min-noconflict/worker-json.js"
+      ]
+    }
+  }
+}
